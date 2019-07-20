@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354558249911",
+    "firebase_url": "https://whatsappui-a91d8.firebaseio.com",
+    "project_id": "whatsappui-a91d8",
+    "storage_bucket": "whatsappui-a91d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354558249911:android:f58b1c10b2b086dd",
+        "android_client_info": {
+          "package_name": "com.baba.whatsappui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354558249911-nebvv7ndonhfspqg57nrltgsacg1hda1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baba.whatsappui",
+            "certificate_hash": "8f10484fd3a0812e262c4def0d72d413eddc848a"
+          }
+        },
+        {
+          "client_id": "354558249911-h8tm491mndn0d8l1slso5hmfb38ai5e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmeabgtGWvrPZfrixsosfHLe1YV_ad0lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354558249911-h8tm491mndn0d8l1slso5hmfb38ai5e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

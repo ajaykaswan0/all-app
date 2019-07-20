@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421214211124",
+    "firebase_url": "https://whatsapplogin-d8012.firebaseio.com",
+    "project_id": "whatsapplogin-d8012",
+    "storage_bucket": "whatsapplogin-d8012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421214211124:android:6ff0e41e65f01abc",
+        "android_client_info": {
+          "package_name": "com.shashi.whatsapplogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421214211124-4lqd78qvplmjglt87oco1f5gg1anuolj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shashi.whatsapplogin",
+            "certificate_hash": "b8fe048c1c1f20f1fc6d059aa4046b81f42c94a4"
+          }
+        },
+        {
+          "client_id": "421214211124-9jc98dl2bn0n96efu5dn2511jufpfip9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHPTVMpdm-cbMMLy-ITbSquRkAwFc3fuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421214211124-9jc98dl2bn0n96efu5dn2511jufpfip9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

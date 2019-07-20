@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Currency Converter"-->
+        <!--android:textSize="30dp"-->
+
+         />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/inr"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="INR"
+
+        />
+    <EditText
+        android:inputType="none"
+        android:id="@+id/convert"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Result"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/DOLAR"
+                android:text="$"
+                android:textSize="40dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background = "@drawable/button"
+                />
+            <Button
+                android:background = "@drawable/button"
+                android:id="@+id/AUD"
+                android:text="AUD"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:background = "@drawable/button"
+                android:id="@+id/EUR"
+                android:text="EUR"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:background = "@drawable/button"
+                android:id="@+id/TAKA"
+                android:text="TAKA"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:background = "@drawable/button"
+                android:id="@+id/YUAN"
+                android:text="YUAN"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:background = "@drawable/button"
+                android:id="@+id/RIAL"
+                android:text="RIAL"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:background = "@drawable/button"
+            android:id="@+id/DINAR"
+            android:text="DINAR"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background = "@drawable/button"
+            android:id="@+id/YEN"
+            android:text="YEN"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background = "@drawable/button"
+            android:id="@+id/RUBLE"
+            android:text="RUBLE"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
